@@ -1,6 +1,6 @@
 # Azure_DevOps
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.veritis.com%2Fblog%2Fazure-devops-services-plan-smart-build-fast-and-execute-at-a-new-speed%2F&psig=AOvVaw1rT2xBTqozJXtyDrn4TLeV&ust=1742365787342000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDf0MGAk4wDFQAAAAAdAAAAABAh
+![azure-devops-ci-cd-pipeline-flow-veritis](https://github.com/user-attachments/assets/f10fcae6-0396-4e71-8c8b-0ac9e9a4c86c)
 
 ### Day 1: Introduction to Azure DevOps and Basic Concepts 🌟
 - What is Cloud Computing

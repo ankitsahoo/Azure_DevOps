@@ -1,167 +1,76 @@
-# Azure_DevOps
+# Checkout the video below for Day1
 
-![azure-devops-ci-cd-pipeline-flow-veritis](https://github.com/user-attachments/assets/f10fcae6-0396-4e71-8c8b-0ac9e9a4c86c)
-
-### Day 1: Introduction to Azure DevOps and Basic Concepts 🌟
-- What is Cloud Computing
-- IaaS VS PaaS VS SaaS
-- What is a Shared Responsibility Model
-- What is a Traditional Build and Deployment workflow
-- What is a Waterfall model in SDLC
-- Problems with the traditional software development life cycle (SDLC)
-- What is Agile, and how it solve the above challenges 
-- What is DevOps and Why It Matters
-- What is CI/CD
-- What is Azure DevOps and a quick walkthrough
-- Creating an Azure DevOps Organization
-- Creating an Azure DevOps Project
-- Azure DevOps Pricing
-- Azure DevOps hosting options: Azure DevOps Services VS Azure DevOps Server
-
-### Day 2: Azure Boards and Agile Project Management 📊
-- What are Azure DevOps Boards 
-- What are Azure board processes, agile, scrum, basic, and CMMI
-- Managing work items in Azure boards
-- Azure board implementation using basic process
-- Working with teams, areas, and iterations
-- Filters in backlogs and boards
-- Azure board implementation using the scrum process
-- Sprint planning and capacity planning
-- Product backlog and taskboard
-- Customizing Kanban boards
-- Customizing dashboards
-- Work item query
-- Customizing team process
-
-### Day 3: Mastering Git and Source Control in Azure DevOps 🌿
-- Introduction to Source Control and Azure Repos
-- Git vs TFVC
-- Configure Visual Code
-- Cloning the repo
-- Commit changes
-- Reviewing history
-- Working with branches
-- Tagging a release
-- Managing repository
-- Managing Pull requests
-- Sample application code
-
-### Day 4: Build Pipeline 🚀
-- Provision Azure App Service to host the website.
-- Creating Build Pipelines using the classic editor
-- Creating build pipeline using YAML
-- YAML pipeline structure, the difference between jobs, stages, steps, and tasks
-- Creating a multi-stage CICD pipeline
-- variables, triggers, Build properties, agents
-- Publishing and Download Build Artifacts
-
-### Day5: 🚀 Continuous Delivery with Azure DevOps Release Pipeline
-- Automating Deployment with a multi-stage Release Pipelines
-- Continuous Deployment Triggers
-- Continuous delivery using deployment slots to enable **Blue-Green deployment**
-- Deployment gates such as Query Work Items and Approvals before the prod deployment
-- Update the code to test the entire CICD process with the Build and Release pipeline
+[![Course Introduction](https://img.youtube.com/vi/ME06qJ2VeXA/sddefault.jpg)](https://youtu.be/ME06qJ2VeXA)
 
 
-### Day 6: Azure Test Plans and Testing 🧪
-- Azure Test Plan Overview
-- Features of Azure test plan
-- Managing Test Plans, Suites and Cases
-- Subscribe to the test plan free trial
-- Authoring, Running, and Analyzing Manual Tests
-- Azure Test and Feedback extension
+## What is Cloud Computing?
+To run an application, you must purchase computing, storage, and hardware. Cloud computing minimizes these upfront expenses, and you can rent or lease hardware from cloud providers such as AWS/Azure/GCP.
 
-### Day 7: Basic Project Artifacts with Azure Artifacts 📦
-- Overview of Azure Artifacts
-- Create the Azure DevOps project and check out the application code
-- Set up the infra using Azure Web App
-- Create Azure Artifacts feed to host the packages
-- Create the CI pipeline that builds the package and pushes it to the feed
-- Create the CD pipeline that consumes the package
-- Promote the package to trigger the release pipeline
-- Upstream packages in Azure Artifacts
-
-### Day 8: Infrastructure as Code (IaC) with Terraform and Azure DevOps🚀
-- Introduction to IaC and Tools
-- Various Terraform commands and workflow
-- Creating Terraform configuration files
-- Setting up terraform backend with Azure storage
-- Executing Terraform commands using CLI
-- Azure DevOps CI Pipeline to init, plan, and archive the plan file
-- Azure DevOps CD pipeline to apply the changes
-
-
-### Day9: Self Hosted agents 👨‍🔧 on Azure Virtual machine scale sets 🧑‍💻
-- Microsoft-hosted vs. self-hosted agents
-- Use case of self-hosted agents
-- Ways to setup self-hosted agents: VM, VMSS, container
-- What is a Virtual machine scale set
-- Set up a self-hosted agent using VMSS
-- Register the agent on an agent pool
-- Install custom utilities on the agent
-- Use the self-hosted agent on a pipeline
-- Comparison between self-hosted and Microsoft-hosted agents
-- work folder walkthrough on agent
-
-### Day 10 Managing Containers with Azure DevOps
-- What is a container
-- Understanding Virtual machine V/s Containers.
-- Challenges with the non-containerized applications
-- Docker Architecture
-- Containerize a sample To-Do list web app written in React JS.
-- Benefits of a multi-stage docker file
-- What are Azure container instances(ACI)
-- Azure DevOps CICD Pipeline to deploy to ACI
-
-
-### Day 11  Implementing end-to-end CICD using Azure DevOps on Kubernetes.
-- Basic Introduction of Kubernetes and its benefits
-- Kubernetes Architecture
-- What is the control plane and its components
-- What are Nodes and types of Nodes
-- What is a Pod/Deployment/Service
-- Azure DevOps CICD Pipeline for a web app running on Kubernetes
-- Sample application: My Health Care - Microservices-based Healthcare management app
+<img src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/d3e3c678-760f-4b3f-bc31-2817634d1de6" alt="image" width=300 height=300 >
 
 
 
-### Day 12  Security and Permissions in Azure DevOps 🔐
-- Enabling advanced security in Azure DevOps
-- Dependency Scanning
-- Secret scanning and managing alerts
-- How to use secrets in your pipeline
-- Code scanning for vulnerabilities
-- Sample Application: My Health Care - Microservices-based Healthcare management app
-
-### Day 13: Serverless app CICD 🐳
-- Introduction to Azure functions
-- Use case and benefits of an Azure function
-- Introduction to the sample app to be used for this demo: Serverless QR Code Generator
-- Demo creating the Azure function and deploying locally
-- Publishing the function to Azure using CLI tools
-- Build and release pipeline for building and deploying the code to Azure Functions
-- 
-### Day 14: Azure DevOps wiki
-- Overview of wiki
-- Creating and editing a project Wiki
-- Publishing code as Wiki
-- How we can use Azure DevOps wiki to collaborate on a project
-
-### Day 15: Azure DevOps Security best practices 🚢
-- Azure DevOps Access Control
-- Organization Settings
-- Agent pools Management
-- Pipeline settings
-- Project-level Settings
-- Pipeline security
-- Repo settings
-- Authentication and Authorization
-- Secrets and credentials access
+**Cloud Computing aims at**
 
 
-### Day 16: Issue and troubleshooting Azure DevOps
+<img src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/05b2bcf2-d8af-4814-a8e0-e2383548a0b0" alt="image" width=300 height=300 >
 
-### Day 17: Azure DevOps Scenario-based Interview Questions
+## IaaS VS PaaS VS SaaS
+
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/19b803a8-45be-4f30-b32f-aa5be6c601d3)
+
+## Shared Responsibility Model in Azure
+
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/fd327641-f690-4d98-963c-8afa823d869a)
+
+## Traditional Build and Deployment workflow
+
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/51690599-927b-437e-b525-61e3fe4b03f1)
 
 
+## What is the Waterfall model?
 
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/6a6bd063-8586-4911-a9a2-76be3435a659)
+
+## What were the challenges with the waterfall model?
+
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/24157bd9-191a-409a-80fb-7b0474531500)
+
+## What is Agile
+
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/45cbf236-2254-4332-b1a7-3370e5177a77)
+
+## What is DevOps, and why does it matter?
+
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/5e199e8e-15c1-4ba6-8d75-dcf8dd4ce706)
+
+
+## What is Azure DevOps 🤷‍♂️
+Azure DevOps is a suite of services that allows you to implement end-to-end DevOps in your organization. It includes services such as Azure Repos, Boards, Wikis, Build and Release pipelines, Test plans, and Artifacts.
+
+## Type of Hosting Options 🚀
+You can work in the cloud using **Azure DevOps Services** or on-premises using **Azure DevOps Server**.
+Organizations that want complete control over their data would mostly prefer to use **Azure DevOps Server**.
+We will use the cloud offering **Azure DevOps Services** throughout our course.
+
+## Pricing 💲💲💲
+In the basic plan, you will get the first 5 users free of cost with all the services within certain limits except the Azure test plan, for which you need a Basic+Test plan subscription/
+
+### Below are the details of both plans:
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/7db8657f-46ca-499c-b592-7e0049749ce6)
+
+### Below are the service limits applicable to these plans
+![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/2d97555d-efe1-4c46-8d77-ddc48ee90c4b)
+
+**If you are a Visual Studio subscriber, you can get access to any number of organizations and don't count against your 5 free users.**
+
+## Pre-requisites ✅
+
+- Sign up for Azure DevOps by clicking 👉 [here](https://azure.microsoft.com/en-us/products/devops/)👈
+- Then click **Start free**
+- It will create a default organization for you with the name as your email address and then redirect you to your Azure DevOps homepage at https://dev.azure.com/{yourorganizationname}
+- You can create a sample project with the name **Day1_project** and start your learning journey
+
+  
+## References:
+https://medium.com/@piyush.sachdeva055/what-is-devops-cloud-agile-cicd-and-azure-devops-azure-devops-zero-to-hero-full-course-e22225e385cf
